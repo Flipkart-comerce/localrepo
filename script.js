@@ -9,14 +9,14 @@ let sliderNo=1;
 
 right.addEventListener("click",()=> {
     if(sliderNo<length) {
-    slider.style.transform=`translateX(-${sliderNo*380}px)`
+    slider.style.transform=`translateX(-${sliderNo*300}px)`
     sliderNo++;
     }
 })
 
 left.addEventListener("click",()=> {
    if(sliderNo>1) {
-    slider.style.transform=`translateX(-${(sliderNo-2)*380}px)`
+    slider.style.transform=`translateX(-${(sliderNo-2)*300}px)`
     sliderNo--
    }
 })
@@ -38,6 +38,6 @@ pord2.addEventListener("click",()=> {
 })
 all.addEventListener("click",()=> {
     window.open("https://www.flipkart.com/41-foods-dry-fruits-combo-pack-cashews-almonds-badam-kaju-500x2-1-kg-almonds/p/itm09e83d5314c08/specifications?pid=NDFGDYB5NYZDNKNN&marketplace=FLIPKART&lid=LSTNDFGDYB5NYZDNKNN4JJYAJ"
-        
+
     )
 })

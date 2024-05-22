@@ -21,7 +21,7 @@ body {
     align-items: center;
 }
 .nav .right {
-    margin-right: 20px;
+    margin-right: 50px;
     display: flex;
     gap: 26px;
 }
@@ -32,7 +32,7 @@ body {
 .adds {
     background-color: white;
     width: 100%;
-    height: 70px;
+    height: 75px;
     margin: 7px 20px 10px 0;
 }
 .adds img {
@@ -102,7 +102,7 @@ body {
    
 }
 .slider .image {
-    width: 100%;
+    width: 300px;
     height: 400px;
     object-fit: cover;
 }
@@ -110,6 +110,7 @@ body {
     width: 100%; 
     background-color: white;
     text-align: center;
+    padding-bottom: 10px;
 }
 
 
@@ -177,6 +178,8 @@ body {
     justify-content: space-around;
     background-color: white;
     margin-top: 10px;
+    margin-bottom: 8px;
+    font-size: 1.2vw;
 }
 .condition img {
     width: 25px;
@@ -221,7 +224,7 @@ body {
    background-color: white;
    width: 100%;
 }
-.highlights h1{
+.highlights h2{
     margin-left: 20px;
 }
 .highlights ul {
