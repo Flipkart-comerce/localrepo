@@ -213,3 +213,29 @@ body {
     width: 50%;
     background-color:orangered;
 }
+
+.prod-img img {
+    width: 100%;
+}
+.highlights  {
+   background-color: white;
+   width: 100%;
+}
+.highlights h1{
+    margin-left: 20px;
+}
+.highlights ul {
+   margin:20px; 
+   margin-left: 40px;
+}
+.all-details {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.review img {
+    width: 100%;
+    margin-top: 10px;
+}
